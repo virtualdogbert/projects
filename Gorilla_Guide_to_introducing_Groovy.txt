@@ -1,0 +1,12 @@
+Gorilla Guide to introducing Groovy to Java developers.
+
+Changing peoples minds and getting them to try new things can be difficult.  If you're having a hard time convicing your employer or coworkers to give Groovy a chnage, this serves a a guide of possible ways you might be able to introduce others to Groovy. First start off small, use Spock for your unit tests. Unit tests are non production, so most likely they won't freakout if you're  not using Java.  This can act as the gateway drug to show them what they can do with Groovy. Next see if you can convice them to use Gradle for your build. A lot of developers are not particular fond of Ant or Maven, so this might not be such a hard sell. Again it indtroduces them to Groovy, which is the point. 
+
+Other things you can do are use Groovy for your own scripts, maybe for setting up environments, or use it with Liquibase for database migrations.  Then you show your coworkers what you can do with these simple easy to read scripts.  Another possibility is setup a simple CRUD Grails app, showing what you could do.  One more possiblity would be to create a sample app, showing off Ratpack or Vert.x, using groovy, for micro services.  Any of these side projects could be shared on Github, and maybe you could show them off durring a lunch and learn, if your company does them.  If your company doesn't curreently do then, you could suggest that, as a way of sparking ideas in the dev team.
+
+Taking things to the next level, might be a bit more challenging, and where you might get the most resistantce, but you can take the chance and put the Groovy jar in your build. If you already have groovy this is very easy. Then you can just start using groovy in your project. Make sure you provide an api that Java can call and if you're not doing code reviews(which you should be), people might not notice. When someone does notice, have them really look at the code, and see how much less you've written to do the same job that they would in Java.
+If they force you to remove it, after all the convicing you've done orver time, it maybe time for a new job.
+
+The final set, after all the convicing and showing what you can do with Groovy, you get your company to start the next project, using a Groovy framework, like Grails, Ratpack, or Vert.x.  
+
+Good luck.

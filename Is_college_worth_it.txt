@@ -1,0 +1,7 @@
+Should everyone learn to program / code...no, however...
+So I'm of the option that not everyone should or even can become a programmer, however, I do think that everyone should be taught the very fundamentals of programing, and how to write scripts. Scripting is very valuable skill that allows people to automate some of the mundane, repetitive tasks of life. Knowing some very basic scripting can allow you to write basic Excel formulas and macros, which can be very useful to many business related jobs, and some analyst. 
+
+Now just to be clear scripting is a form of programing, which is usually short, simple and for a specific purpose. Programmers use scripting for automation just as anyone can. I should describe what I mean by programmer. Programmers go beyond scripts and understand the data structures, algorithms and architecture of programs.
+
+DNA cadence
+
