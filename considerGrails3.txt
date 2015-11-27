@@ -1,14 +1,24 @@
 Why statups and green field projects should consider Grails.
 
-When starting a new project you want to get up and running fast, and there are a lot of frameworks that can help you do that: Grails, Rails, Django, Node.js, etc, all with their advantages, and disadvantages. For this post I'm going to focus on the back-end framework Grails. The latest version of Grails 3.0.x came out this past spring. This relase is an evolution of the framework with improved performance and many useful features:
+When starting a new project you want to get up and running fast, and there are a lot of frameworks that can help you do that: Grails, Rails, Django, Node.js, etc, all with their advantages, and disadvantages. At this point Grails 3 might not be the popular choice, but it would be a smart one.  Grails works off of convention over configuration. What this means is if you used the conventions, you can create and run the skeleton of an application in under a minuete. After that you can imidately start developing controllers for the flow of the app, services to handle buisness logic, and domains to save you data to a data store(SQL or NOSQL). While Grails uses convention over configuartion, you can configure it to override some of the conventions, when you need to.  
+
+Grails is based on the programing language Groovy, which is very powerful, expresive, and seemeless interop with Java. What this means is you write less code, that does more, so it's more readable, with fewer chances for bugs.  Since Groovy has seemless interop with JAVA, so you can take advantage of any exisiting JVM library. Groovy also has a very flat learning curve, and is fairly easy to pick up by Java develpers. This means that if you hire smart Java developers, that are willing to learn, they should be able to become productive in Groovy/Grails faily quickly.  Also since Grails is similar to Rails and Django, again smart developers willing to learns, should be able to port over faily easily. Grails itself if built using Enterprize grade frameworks like Hiebernate, and Spring, but without the verbosity(because of Groovy) that is normally associated with useing those frameworks.
+
+
+
+Grails also has many features, like the ability to be built as a war and easily deployed to container like Tomcat. This makes Grails a lot easier to deploy, than some of the other frameworks I mentioned. The latest version of Grails 3.0.x came out this past spring. This relase is an evolution of the framework with improved performance and many useful features:
 * Uses gradle for its build system
 * It's based on Spring Boot(inspired from previous version of Grails)
 * Upgraded Groovy(traits, Java 8 support, and many other features)
 * New Interceptors API
 * New Shell and Code Generation API
-* supports built in support for Spock/Geb for unit/functional test
+* built in support for Spock/Geb, for unit/functional test
 * Grails can be run as an application, or built as a war, and deployed on Tomcat
 * Has a growing library of plugins
+
+So if you're thining about doing a startup or a green field project give Grails a look.  If you want to go a little deeper you can check our my video tutorials on Groovy and Grails:
+https://www.youtube.com/playlist?list=PLzerMl1XZ0X1KwRPzJwXMCUjtuzX2KkGr
+https://www.youtube.com/playlist?list=PLzerMl1XZ0X0YRDtWd5_8mCoTDc6J84Wd
 
 
 
