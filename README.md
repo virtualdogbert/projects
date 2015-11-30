@@ -1,9 +1,10 @@
 # projects
 		This is just a git project to hold my various projects. Some of these project have been started others are very much a work in progress, and others haven't really been started other then the idea is written here.
 ## LinkedIn/Articles Medium(some may have video tie in)
-		Why Startups should consider Grails 3.x
-		ACL is dead
-		Gorilla Guide to introducing Groovy to Java developers.
+		*Why Startups should consider Grails 3.x
+		*ACL is dead
+		*Gorilla Guide to introducing Groovy to Java developers.
+		Why your full stack developers, aren't really full stack.
 		Abstraction/Over Engineering Rant
 		Should everyone learn to program / code...no, however...
 		Is a college education worth it... yes, however...
